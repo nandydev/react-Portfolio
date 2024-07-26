@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body{
+  background-color: black;
+  color: #fff;
+}
+
+h1,h2,h3,h4,h5,p,a{
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}

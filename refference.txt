@@ -1,0 +1,22 @@
+npm install react-router-dom
+npm install react-icons
+const [click,setClick] = useState(false);
+props and class
+props ---> pass datas one component to another component.
+useEffect --->  set default first load when display datas.
+useState ----> change value dynamically when user selected changes.
+useContext ---> React Context is a way to manage state globally used nested components.
+
+class HeroImg2 extends Component {
+    render(){
+        return (
+            <div className="hero-img">
+                <div className="headings">
+                    <h1>{this.props.heading}</h1>
+                    <p>{this.props.text}</p>
+                </div>
+            </div>
+          )
+    }
+ 
+}
